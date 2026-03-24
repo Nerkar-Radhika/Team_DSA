@@ -71,12 +71,26 @@ Wards covered:
 ```
 Team_DSA/
 │
-├── Hackathon_team_DSA (1).ipynb    # ML model notebook
-├── app.py                           # Streamlit dashboard
-├── feature_importance.csv           # Root cause indicators
-├── ward_risk_predictions.csv        # Model output
-├── waterwatch_dataset .csv          # Synthetic dataset
-└── README.md                        # Project documentation
+├── Hackathon_team_DSA.ipynb        # ML Model (XGBoost)
+│                                   # Scarcity forecasting
+│                                   # Risk scores + tanker plan
+│
+├── app.py                          # Streamlit Dashboard
+│                                   # Risk heatmap + analytics
+│                                   # Tanker allocation plan
+│
+├── waterwatch_dataset.csv          # Synthetic dataset
+│                                   # 2160 rows | 12 wards
+│                                   # 90 days | Nagpur NMC
+│
+├── ward_risk_predictions.csv       # Model output
+│                                   # Risk scores per ward
+│                                   # Tanker recommendations
+│
+├── feature_importance.csv          # Root cause indicators
+│                                   # Top scarcity factors
+│
+└── README.md                       # Project documentation
 ```
 
 ---
@@ -208,10 +222,10 @@ Top features driving scarcity prediction:
 
 | Member | Role |
 |---|---|
+| Prathamesh Shahane | Dataset Generation |
 | Radhika Nerkar | ML Model (XGBoost) |
-| Prathamesh | Dataset Generation |
-| Chaitanya | Presentation & PPT |
-| Gunjan | Streamlit Dashboard |
+| Gunjan Walke | Streamlit Dashboard |
+| Chaitanya Mujbaile | Presentation & PPT |
 
 ---
 
