@@ -1,0 +1,11 @@
+feature,importance
+supply_hours,0.9474415
+demand,0.017439721
+pressure,0.012620798
+supply,0.0057024457
+demand_supply_gap,0.005701641
+pipe_breaks,0.005504535
+pipe_breaks_7day_avg,0.002373298
+complaints_7day_avg,0.0018554156
+supply_hours_7day_avg,0.0013606495
+complaints,0.0
