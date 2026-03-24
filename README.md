@@ -115,7 +115,7 @@ Team_DSA/
 ## 🤖 ML Model
 
 - **Algorithm:** XGBoost Classifier
-- **Dataset:** 1080 rows | 12 wards | 90 days
+- **Dataset:** 2160 rows | 12 wards | 90 days
 - **Target:** Scarcity prediction (Yes/No)
 
 ### Overfitting Prevention:
