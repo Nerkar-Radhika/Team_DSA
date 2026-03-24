@@ -71,22 +71,12 @@ Wards covered:
 ```
 Team_DSA/
 │
-├── data/
-│   └── waterwatch_dataset.csv      # Synthetic dataset
-│                                   # 1080 rows, 12 wards
-│
-├── model/
-│   ├── waterwatch_model.ipynb      # ML model notebook
-│   ├── ward_risk_predictions.csv   # Model output
-│   └── feature_importance.csv     # Root cause indicators
-│
-├── dashboard/
-│   └── app.py                      # Streamlit dashboard
-│
-├── presentation/
-│   └── WaterWatch_PPT.pptx         # Final presentation
-│
-└── README.md
+├── Hackathon_team_DSA (1).ipynb    # ML model notebook
+├── app.py                           # Streamlit dashboard
+├── feature_importance.csv           # Root cause indicators
+├── ward_risk_predictions.csv        # Model output
+├── waterwatch_dataset .csv          # Synthetic dataset
+└── README.md                        # Project documentation
 ```
 
 ---
